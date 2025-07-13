@@ -1,0 +1,11 @@
+s 1 0 0
+s 1 0 7
+s 1 7 0
+s 1 7 7
+l a 3 3        # light small piece “a”
+d a 4 4        # dark  small piece “A”
+#
+3 3 r          # 1️⃣ light  moves right  to (3,4)
+4 4 r          # 2️⃣ dark   moves right  to (4,5)
+3 4 l          # 3️⃣ light  moves left   back to (3,3)
+4 5 l          # 4️⃣ dark   moves left   back to (4,4)
